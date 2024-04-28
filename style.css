@@ -1,7 +1,70 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/713/original/2779031.jpg?1714294759");
+  background-size: cover;
+  color: #22267b;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 h1 {
+  font-size: 50px;
   text-align: center;
 }
 
+h2 {
+  margin-bottom: 3px;
+}
+select {
+  background-color: #c3e6e0;
+  border-radius: 6px;
+  color: #22267b;
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  margin-left: 200px;
+  padding: 10px 20px;
+  position: relative;
+  top: 100px;
+}
+a {
+  color: rgba(34, 38, 123, 0.9);
+  text-decoration-line: none;
+}
+
+a:hover {
+  color: #22267b;
+  font-weight: 500;
+}
+
 footer {
+  color: rgba(34, 38, 123, 0.7);
+  position: relative;
+  top: 250px;
   text-align: center;
+}
+
+.container {
+  background-color: #fabbb8;
+  border-radius: 6px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  margin-left: 950px;
+  margin-right: 50px;
+  padding: 20px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #c3e6e0;
+  margin-top: 5px;
+  padding-bottom: 20px;
+}
+.city:last-child {
+  border: none;
+}
+
+.time {
+  font-size: 40px;
+  margin-top: 20px;
 }
