@@ -9,19 +9,22 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   text-align: center;
 }
 
 h2 {
+  font-size: 35px;
   margin-bottom: 3px;
 }
 select {
   background-color: #c3e6e0;
   border-radius: 6px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
   color: #22267b;
   font-family: "Rubik", sans-serif;
   font-size: 30px;
+  font-weight: 700;
   margin-left: 200px;
   padding: 10px 20px;
   position: relative;
@@ -40,14 +43,14 @@ a:hover {
 footer {
   color: rgba(34, 38, 123, 0.7);
   position: relative;
-  top: 250px;
+  top: 100px;
   text-align: center;
 }
 
 .container {
   background-color: #fabbb8;
   border-radius: 6px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
   margin-left: 950px;
   margin-right: 50px;
   padding: 20px;
@@ -66,5 +69,9 @@ footer {
 
 .time {
   font-size: 40px;
-  margin-top: 20px;
+  margin-top: 30px;
+}
+
+.name {
+  color: rgba(34, 38, 123, 0.9);
 }
