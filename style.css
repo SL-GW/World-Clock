@@ -42,9 +42,10 @@ a:hover {
 
 footer {
   color: rgba(34, 38, 123, 0.7);
-  position: relative;
-  top: 100px;
-  text-align: center;
+  position: absolute;
+  top: 700px;
+
+  margin-left: 25%;
 }
 
 .container {
